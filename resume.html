@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="shortcut icon" href="images/Iconslogo/rsz_logo_1-150x150.png" />
+        <link href="css/resume.css" type="text/css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Audiowide|Baloo+Tamma|Kelly+Slab|Neucha|Righteous&display=swap" rel="stylesheet">
+    <style>
+        .toggle{
+            height: 0px;
+        }
+        @media only screen and (max-width: 800px){
+            .toggle{
+                height: 50px;
+            }
+        }
+    </style>
+    </head>
+    <body>
+        <div class="toggle">
+            <span style="font-size:40px;cursor:pointer;margin-left: 10px;" onclick="openNav()" id="open">&#9776; </span>
+        </div>
+       <div id="myNav" class="navbar" style="background-color: rgba(0,0,0,0.9);">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="close">&times;</a>
+          <div class="navbar-content">
+            <a href="home.html">Home</a>
+            <a href="resume.html" id="active">CV</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div class="top-part">
+            <div class="back-part">
+            <div class="sign">
+               <img src="images/Iconslogo/sign1.png">
+            </div>
+            <div class="social-icons">
+               <a href="https://www.facebook.com/nelvine.omondi" target="_blank"><img src="images/Iconslogo/facebook-32.png"></a>
+               
+               <a href="https://twitter.com/" target="_blank"><img src="images/Iconslogo/twitter-32.png"></a>
+               
+               <a href="https://www.instagram.com/nelvineomo/" target="_blank"><img src="images/Iconslogo/instagram-32.png"></a>
+               
+               <a href="https://github.com/Nelvinom" target="_blank"><img src="images/Iconslogo/github-32.png"></a>
+               
+               
+               <a href="https://www.youtube.com/channel/UC7LsiigfoW7MZCe6fvEAMXg?view_as=subscriber" target="_blank"><img src="images/Iconslogo/youtube-32.png"></a>
+            </div>
+            <div class="down-button">
+                <a href="">
+                    <button class="btn-dwn" type="button" onclick="confirmDownload()">Download CV<i class="fa fa-download" id="dwn-icon"></i></button>
+                </a>
+            </div>
+        </div>
+        <div class="per-img"></div>
+        </div>
+        <div class="main-part">
+            <h2>Nelvin Omondi</h2>
+            <div class="cv-area">
+               <div class="fieldset-cover">
+                   <fieldset>
+                  <legend>Personal Detail</legend>
+                   <div class="per-detail">
+                   <table class="tb-left">
+                       <tr>
+                           <th>Name </th>
+                           <td> : </td>
+                           <td>Nelvin Omondi</td>
+                       </tr>
+                       <tr>
+                           <th>Gender </th>
+                           <td> : </td>
+                           <td>Male</td>
+                           
+                       </tr>
+                       <tr>
+                           <th>Contact No</th>
+                           <td> : </td>
+                           <td>0705962107</td>
+                           
+                       </tr>
+                       <tr>
+                           <th>Nationality</th>
+                           <td> : </td>
+                           <td>Kenya</td>
+                           
+                       </tr>
+                   </table>
+                   <table class="tb-right">
+                       <tr>
+                           <th> Email </th>
+                           <td> : </td>
+                           <td>Omondinelvine884@gmail.com</td>
+                       </tr>
+                       <tr>
+                           <th> Language </th>
+                           <td> : </td>
+                           <td>English & Kiswahili</td>
+                       </tr>
+                   </table>
+               </div>
+               </fieldset>
+               </div>
+               <div class="fieldset-cover">
+                   <fieldset>
+                   <legend>Education</legend>
+                   <div class="edu-detail">
+                       <table>
+                          <caption>Education</caption>
+                           <tr>
+                            <th>College</th>
+                            <td>:</td>
+                            <td>Moringa School (Software Engineering) (Jan-July 2020)</td>
+                           </tr>
+                           <tr>
+                               <th>High School Level</th>
+                               <td>:</td>
+                               <td>Uyawi secondary school (K.C.S.E) (2012 - 2015)</td>
+                           </tr>
+                           
+                       </table>
+                   </div>
+               </fieldset>
+               </div>
+               <div class="fieldset-cover">
+                   <fieldset>
+                   <legend>Personal Statement</legend>
+                   <div class="work-detail">
+                       <table class="tbl-work">
+                          <caption>Personal Summary</caption>
+                           <tr>
+                               <th>Goal-oriented Web Developer with strong
+                                commitment to collaboration
+                                and solutions-oriented problem-solving.
+                                Use various web design software
+                                to develop customer-focused websites and designs.
+                                Committed to high standards of web design,
+                                user experience, usability and speed for
+                                multiple types of end-users.</th>
+                           </tr>
+                       </table>
+                   </div>
+               </fieldset>
+               </div>
+                <div class="skill-section" id="skill-section">
+                   <h2>My Skills & Abilities</h2>
+                    <div class="skill-part">
+                    <div class="prgm-skill">
+                    <h2>Programming</h2>
+                        <p>Python</p>
+                        <div class="container-skill">
+                          <div class="skills Python">60%</div>
+                        </div>
+                        <p>Django</p>
+                        <div class="container-skill">
+                          <div class="skills Django">70%</div>
+                        </div>
+                        <p>Flask</p>
+                        <div class="container-skill">
+                          <div class="skills Flask">50%</div>
+                        </div>
+                        <p>Javascript</p>
+                        <div class="container-skill">
+                          <div class="skills js">60%</div>
+                        </div>
+                        <p>MySQL</p>
+                        <div class="container-skill">
+                          <div class="skills sql">70%</div>
+                        </div>
+                    </div>
+                    
+                    <div class="design-skill">
+                       <h2>Designing</h2>
+                        <p>HTML</p>
+                        <div class="container-skill">
+                          <div class="skills html">90%</div>
+                        </div>
+                        
+                        <p>CSS</p>
+                        <div class="container-skill">
+                          <div class="skills css">80%</div>
+                        </div>
+                        <p>Bootstrap</p>
+                        <div class="container-skill">
+                          <div class="skills bootstrap">70%</div>
+                        </div>
+                    </div>
+                </div>
+                </div> 
+            </div>
+        </div>
+        <!--Copyright Information-->
+        <div class="copyright">
+            <p>&copy; 2020 <a href="https://www.linkedin.com/in/nelvin-omondi-338340195/">Nelvin Omondi</a></p>
+        </div>
+        <script>
+            function confirmDownload(){
+                alert("Download is preparing & will begin shortly...");
+            }
+        </script>
+        <script src="js/main.js" type="text/javascript"></script>
+    </body>
+</html>
